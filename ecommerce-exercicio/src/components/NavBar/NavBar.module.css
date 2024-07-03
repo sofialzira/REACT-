@@ -1,0 +1,9 @@
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoWrapper {
+    max-width: 300px;
+}
