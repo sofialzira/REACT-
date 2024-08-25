@@ -6,6 +6,7 @@
 
 :root {
   --bk-primary: #0F0F0F;
+  --bk-container: #FFFFFF13;
   --bk-menu-button: #323232;
   --t-white: #FFFFFF;
   --t-grey-menu: #676767;
@@ -14,9 +15,17 @@
 
 }
 
+body {
+  background-color: #0F0F0F;
+}
+
+
 #root {
-  padding-left: 10vw;
-  padding-right: 10vw;
+  width: 80vw;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
 html {
@@ -25,14 +34,8 @@ html {
 }
 
 * {
-  background-color: #0F0F0F;
   font-family: "Inter";
   box-sizing: border-box;
-  
-  
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
+
