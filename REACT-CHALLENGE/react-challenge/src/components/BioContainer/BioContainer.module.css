@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   background-color: var(--bk-container);
-  width: 35rem;
+  width: 96%;
   height: 20rem;
   border-radius: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.103);
@@ -70,10 +70,7 @@
     color: white;
 }
 
-.infoButton:hover {
-    cursor: pointer;
-    color: rgb(189, 187, 187);
-}
+
 
 .bioImage {
 width: 85%;

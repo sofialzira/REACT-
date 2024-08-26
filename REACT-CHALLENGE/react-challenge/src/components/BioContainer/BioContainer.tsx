@@ -4,8 +4,6 @@ import bioImage from '../../assets/bio-image.png';
 
 
 
-
-
 function BioContainer(props:any) {
     const { bioJob, bioName, bioDescription } = props;
 
@@ -13,7 +11,7 @@ function BioContainer(props:any) {
     return (
         <div className={style.bioContainerGeneral}>
             <div className={style.imageContainer}>
-                <img src={bioImage} className={style.bioImage}></img>
+                <img src={bioImage} className={style.bioImage}></img> 
             </div>
             <div className={style.infoContainer}>
                 <div className={style.infoTextContainer}>

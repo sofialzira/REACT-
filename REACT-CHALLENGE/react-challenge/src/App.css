@@ -1,2 +1,19 @@
+.row1 {
+    display: flex;
+}
+
+.row1col1 {
+    width: 50%;
+}
+
+.row1col2 {
+    width: 25%;
+
+}
+
+.row1col3 {
+    width: 25%;
+    
+}
 
 
