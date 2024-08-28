@@ -1,9 +1,10 @@
 .bioContainerGeneral {
   display: flex;
   align-items: center;
-  background-color: var(--bk-container);
+ 
+  background: var(--bk-container);
   width: 96%;
-  height: 20rem;
+  height: 30rem;
   border-radius: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.103);
 }
@@ -23,18 +24,25 @@
 
 .infoContainer {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     text-align: left;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
 }
 
+.infoTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+
+}
 
 .bioJob {
   display: inline-block;
   vertical-align: middle;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: var(--t-gray-body);
   text-transform: uppercase;
@@ -43,7 +51,7 @@
 .bioName {
   display: inline-block;
   vertical-align: middle;
-  font-size: 2.2rem;
+  font-size: 2.6rem;
   font-weight: 600;
   color: var(--t-white);
 }
@@ -51,7 +59,7 @@
 .bioDescription {
   display: inline-block;
   vertical-align: middle;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   color: var(--t-gray-body);
 }
@@ -62,7 +70,9 @@
 }
 
 
-
+.infoButtonContainer {
+  align-self: flex-end;
+}
 
 .infoButton {
     margin-right: 1rem;

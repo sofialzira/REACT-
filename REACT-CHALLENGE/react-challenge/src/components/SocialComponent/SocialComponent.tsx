@@ -1,15 +1,14 @@
-import style from './SimpleContainer.module.css';
+import style from './SocialComponent.module.css';
 import { CiCircleChevRight } from "react-icons/ci";
+import Social from './Social/social'
 
 
-function SimpleContainer(props:any) {
-    const { img, subtitle, title } = props;
+function SocialContainer(props:any) {
+    const { subtitle, title } = props;
 
     return (
-        <div className={style.aboutSimpleContainerGeneral}>
-            <div className={style.aboutImageContainer}>
-                <img src={img} className={style.aboutMeImage}></img>
-            </div>
+        <div className={style.socialContainerGeneral}>
+            <Social />
             <div className={style.infoContainer}>
                 <div className={style.infoTextContainer}>
                     <span className={style.subtitle}>{subtitle}</span>
@@ -25,4 +24,4 @@ function SimpleContainer(props:any) {
     )
 }
 
-export default SimpleContainer
+export default SocialContainer
