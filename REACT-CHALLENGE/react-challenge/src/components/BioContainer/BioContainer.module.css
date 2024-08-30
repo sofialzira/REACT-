@@ -13,7 +13,7 @@
 .infoContainer {
   position: relative;
   width: 50%;
-  height: 90%;
+  height: 100%;
 }
 
 .imageContainer {
@@ -62,6 +62,7 @@
   font-size: 1.2rem;
   font-weight: 500;
   color: var(--t-gray-body);
+  line-height: 16px;
 }
 
 .bioJob, .bioName, .bioDescription {

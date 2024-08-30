@@ -9,6 +9,8 @@ import blogImage from './assets/blog-image.jpg';
 import Footer from "./components/Footer/FooterComponent";
 import ServicesComponent from "./components/ServicesComponent/ServicesComponent";
 import SocialContainer from "./components/SocialComponent/SocialComponent";
+import DataComponent from "./components/DataComponent/DataComponent";
+import ContactComponent from "./components/ContactComponent/ContactComponent";
 
 function App() {
   return (
@@ -20,7 +22,8 @@ function App() {
           <BioContainer
             bioJob="Web Designer"
             bioName="Sofia Oliveira."
-            bioDescription="Escrever aqui bio bonitinha"
+            bioDescription="I'm focused on fulfilling objectives, new challenges and being
+creative."
           />
           </div>
           <div className="col2">
@@ -34,8 +37,8 @@ function App() {
         <div className="row1col3"> 
           <SimpleContainer 
           img={projectsImage}
-          subtitle="Showcase" 
-          title="Projects" />
+          subtitle="Github" 
+          title="Fullstack  Web Developtment" />
           </div>
           </div>
         </div>
@@ -45,7 +48,7 @@ function App() {
         <div className="row2col1">
         <SimpleContainer 
           img={blogImage}
-          subtitle="Blog" 
+          subtitle="Portfolio" 
           title="Design" />
         </div>
         <div className="row2col2">
@@ -59,6 +62,14 @@ function App() {
           title="Profiles"/>
         </div>
       
+      </div>
+      <div className="row3">
+        <div className="row3col1">
+          <DataComponent />
+        </div>
+        <div className="row3col2">
+          <ContactComponent />
+        </div>
       </div>
       </div>
       <Footer />
