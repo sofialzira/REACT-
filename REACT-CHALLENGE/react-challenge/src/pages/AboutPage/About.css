@@ -8,4 +8,56 @@
     width: 25%;
   }
 
-  
+
+.col2about {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 6%;
+
+}
+
+.sub-row1about {
+    display: flex;
+    width: 100%;
+    padding-left: 4%;
+    align-items: flex-end;
+
+}
+
+.row2about {
+        margin-bottom: 20px;
+        width: 100%;
+        display: flex;
+        gap: 1%
+      
+}
+
+.row2col1about {
+    width: 50%;
+}
+.row2col2about {
+    width: 50%;
+}
+
+
+
+.row3about {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.row3col1about {
+    width: 25%;
+}
+
+.row3col2about {
+    width: 50%;
+}
+
+.row3col3about {
+    width: 25%;
+}
