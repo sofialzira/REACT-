@@ -64,3 +64,8 @@
     margin-bottom: 2rem;
     margin-top: 0.5rem;
 }
+
+.infoButton:hover {
+    color: white;
+  }
+  

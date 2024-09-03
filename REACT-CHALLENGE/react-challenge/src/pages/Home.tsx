@@ -1,4 +1,4 @@
-import BioContainer from "../components/BioContainer/BioContainer";
+import BioContainer from "../components/BioContainerComponent/BioContainer";
 import NavBar from "../components/NavBar/NavBar";
 import SimpleContainer from "../components/SimpleContainer/SimpleContainer";
 import aboutMeImage from '../assets/about-me.jpg';
@@ -9,7 +9,7 @@ import Footer from "../components/Footer/FooterComponent";
 import ServicesComponent from "../components/ServicesComponent/ServicesComponent";
 import SocialContainer from "../components/SocialComponent/SocialComponent";
 import DataComponent from "../components/DataComponent/DataComponent";
-import ContactComponent from "../components/ContactComponent/ContactComponent";
+import ContactComponent from "../components/Contact/ContactComponent";
 
 function Homepage() {
     return (

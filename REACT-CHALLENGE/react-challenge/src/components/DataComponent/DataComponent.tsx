@@ -1,5 +1,5 @@
 import style from './DataComponent.module.css';
-import Data from './Data/data'
+import Data from './SimpleData/data';
 
 
 

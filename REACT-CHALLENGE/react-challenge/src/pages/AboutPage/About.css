@@ -1,0 +1,11 @@
+.row1about {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .row1col1about {
+    width: 25%;
+  }
+
+  

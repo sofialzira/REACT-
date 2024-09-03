@@ -78,9 +78,12 @@
 .infoButton {
     margin-right: 1rem;
     font-size: 3rem;
-    color: white;
+    color: rgb(64, 64, 64);
 }
 
+.infoButton:hover {
+  color: white;
+}
 
 
 .bioImage {
