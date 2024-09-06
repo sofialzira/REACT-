@@ -5,7 +5,7 @@
   }
 
   .row1col1about {
-    width: 25%;
+    width: 30%;
   }
 
 
@@ -15,14 +15,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    gap: 6%;
+   
 
 }
 
 .sub-row1about {
     display: flex;
     width: 100%;
-    padding-left: 4%;
+    padding-left: 3%;
     align-items: flex-end;
 
 }

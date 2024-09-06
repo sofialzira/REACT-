@@ -21,7 +21,7 @@ function BioContainer(props:any) {
                 </div>
                 <div className={style.infoButtonContainer}>
     
-                <a className={style.infoButton} href="www.google.com">
+                <a className={style.infoButton} href="about">
                 <CiCircleChevRight /></a>
                 </div>
             </div>
