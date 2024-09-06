@@ -51,7 +51,8 @@ function About() {
             <BioImage />
             </div>
             <div className="col2about">
-            <BioTitle />
+            <BioTitle
+            titleText="SELF-SUMMARY" />
             <div className="sub-row1about">
             <BioDescription />
             </div>
