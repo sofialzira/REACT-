@@ -1,13 +1,14 @@
 import style from "./RepoComponent.module.css";
+import { CiCircleChevRight } from "react-icons/ci";
 
 function Repo(props: any) {
 
-    const { repoName, repoLanguage, repoUpdatedAt, repoCreatedAt } = props;
+    const { repoImg, repoName, repoLanguage, repoUpdatedAt, repoCreatedAt } = props;
   
   return (
     <div className={style.repoContainerGeneral}>
       <div className={style.repoImageContainer}>
-        <img src={""} className={style.repoImage}></img>
+        <img src={repoImg} className={style.repoImage}></img>
       </div>
       <div className={style.repoInfoContainer}>
         <div className={style.repoInfoTextContainer}>
@@ -16,8 +17,12 @@ function Repo(props: any) {
           <span className={style.lastUpdate}>
             Last Update: {repoUpdatedAt}
           </span>
-          <span className={style.repoAge}> Age: {repoCreatedAt}</span>
+          <span className={style.repoAge}> Age: {repoCreatedAt}</span> 
         </div>
+        <div className={style.infoButtonContainer}>
+                <a className={style.infoButton} href="https://github.com/sofialzira?tab=repositories">
+                <CiCircleChevRight /></a>
+                </div>
       </div>
     </div>
   );
