@@ -3,7 +3,7 @@ import { CiCircleChevRight } from "react-icons/ci";
 
 function Repo(props: any) {
 
-    const { repoImg, repoName, repoLanguage, repoUpdatedAt, repoCreatedAt } = props;
+    const { repoImg, repoName, repoLanguage, repoUpdatedAt, repoCreatedAt, linkToProject } = props;
   
   return (
     <div className={style.repoContainerGeneral}>
@@ -20,7 +20,7 @@ function Repo(props: any) {
           <span className={style.repoAge}> Age: {repoCreatedAt}</span> 
         </div>
         <div className={style.infoButtonContainer}>
-                <a className={style.infoButton} href="https://github.com/sofialzira?tab=repositories">
+                <a className={style.infoButton} href={linkToProject}>
                 <CiCircleChevRight /></a>
                 </div>
       </div>

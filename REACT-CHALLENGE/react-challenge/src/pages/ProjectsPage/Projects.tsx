@@ -46,6 +46,7 @@ function Projects() {
               repoLanguage={repoData[0].language}
               repoUpdatedAt={repoData[0].updated_at}
               repoCreatedAt={repoData[0].created_at}
+              linkToProject="https://github.com/sofialzira/BACKEND"
             />
             </div>
             
@@ -60,13 +61,15 @@ function Projects() {
               repoLanguage={repoData[1].language}
               repoUpdatedAt={repoData[1].updated_at}
               repoCreatedAt={repoData[1].created_at}
+               linkToProject="https://github.com/sofialzira/ecommerce-exercice-fsr"
             />
             <Repo
                 repoImg={htmlImage}
-              repoName={repoData[2].name}
-              repoLanguage={repoData[2].language}
-              repoUpdatedAt={repoData[2].updated_at}
-              repoCreatedAt={repoData[2].created_at}
+              repoName={repoData[5].name}
+              repoLanguage={repoData[5].language}
+              repoUpdatedAt={repoData[5].updated_at}
+              repoCreatedAt={repoData[5].created_at}
+              linkToProject="https://github.com/sofialzira/git-final-2023-02"
             />
             <Repo
             repoImg={htmlcssImge}
@@ -74,6 +77,7 @@ function Projects() {
               repoLanguage={repoData[3].language}
               repoUpdatedAt={repoData[3].updated_at}
               repoCreatedAt={repoData[3].created_at}
+               linkToProject="https://github.com/sofialzira/ex-hello-world"
             />
           </div>
           <div className="row3projects">
@@ -83,6 +87,7 @@ function Projects() {
               repoLanguage={repoData[7].language}
               repoUpdatedAt={repoData[7].updated_at}
               repoCreatedAt={repoData[7].created_at}
+              linkToProject="https://github.com/sofialzira/JAVASCRIPT"
             />
             <Repo
             repoImg={reactProjectImage}
@@ -90,6 +95,7 @@ function Projects() {
               repoLanguage={repoData[8].language}
               repoUpdatedAt={repoData[8].updated_at}
               repoCreatedAt={repoData[8].created_at}
+              linkToProject="https://github.com/sofialzira/REACT-"
             />
             <Repo
             repoImg={typescriptImage}
@@ -97,6 +103,7 @@ function Projects() {
               repoLanguage={repoData[9].language}
               repoUpdatedAt={repoData[9].updated_at}
               repoCreatedAt={repoData[9].created_at}
+               linkToProject="https://github.com/sofialzira/TYPESCRIPT"
             />
           </div>
         </>
