@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/sofiawoodlogo.svg'
 import style from './NavBar.module.css'
 
 function NavBar() {
@@ -18,7 +18,7 @@ function NavBar() {
                         <li><a className={style.menuLink} href="home">Home</a></li>
                         <li><a className={style.menuLink} href="about">About</a></li>
                         <li><a className={style.menuLink} href="projects">Projects</a></li>
-                        <li><a className={style.menuLink} href="#">Contact</a></li>
+                        {/* <li><a className={style.menuLink} href="#">Contact</a></li> */}
                     </ul>
                 </div>
                 

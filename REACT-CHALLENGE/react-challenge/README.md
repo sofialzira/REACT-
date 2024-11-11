@@ -1,7 +1,7 @@
 
 # Online Portfolio - React + TypeScript
 
-This project is a personal online portfolio built using React and TypeScript. It consists of three main pages: Homepage, About me, and Projects (Github API).
+This project is a personal online portfolio built using React and TypeScript. It consists of three main pages: Homepage, About, and Projects (Github API).
 
 
 
@@ -11,7 +11,7 @@ This project is a personal online portfolio built using React and TypeScript. It
 - [Features](#features)
 - [Tech Stack](#tech_stack)
 - [Getting Started](#getting_started)
-- Folder Structure
+
 
 
 
@@ -21,7 +21,7 @@ This project is a personal online portfolio built using React and TypeScript. It
 This project showcases a developer's personal information, skills, and projects through three main sections:
 
 - Homepage: A brief introduction and background.
-- About me: A list of educational qualifications, certifications, and work experience.
+- About: A list of educational qualifications, certifications, and work experience.
 - Projects: A showcase of projects, including links and descriptions.
 The project is built using React and TypeScript to ensure type safety and scalability.
 

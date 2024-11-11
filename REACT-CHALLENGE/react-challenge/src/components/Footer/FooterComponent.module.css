@@ -1,5 +1,6 @@
 .logoContainer {
-    height: 130px;
+    height: 5rem;
+    margin-top: 8rem;
 } 
 
 .linksWrapper {
@@ -14,7 +15,7 @@
     ul {
         display: flex;
         align-items: center;
-        gap: 4.5rem;
+        gap: 4rem;
     }
 
     li {

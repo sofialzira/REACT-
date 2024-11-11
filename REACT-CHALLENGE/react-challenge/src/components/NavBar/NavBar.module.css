@@ -1,4 +1,6 @@
 .main-header {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -27,12 +29,12 @@
     font-size: 1rem;
     line-height: 2.4rem;
     font-weight: 500;
-    color: var(--t-grey-menu);
+    color: var(--t-white-menu);
   }
 }
 
 .menuLink:hover {
-  color: var(--t-white);
+  color: var(--t-hoover-menu);
 }
 
 
