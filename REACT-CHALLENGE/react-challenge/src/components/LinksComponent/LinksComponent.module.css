@@ -1,11 +1,11 @@
 .linksGeneralContainer {
     display: inline-flex;
     background-color: var(--bk-container);
-    width: 100%;
-    height: 60px;
+    width: 98%;
+    height: 80px;
     border-radius: 2rem;
     border: 1px solid rgba(255, 255, 255, 0.103);
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .linksWrapper {
@@ -13,13 +13,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 16px;
 
 }
 
 ul {
     display: inline-flex;
     justify-content: center;
-    gap: 50px;
+    gap: 35px;
     color: white;
     text-transform: uppercase;
     
@@ -34,3 +36,7 @@ a {
     font-weight: 500;
 
 }
+
+/* .linkText:hover {
+    color: var(--t-hoover-menu);
+} */

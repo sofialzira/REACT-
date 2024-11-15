@@ -19,10 +19,9 @@ function Homepage() {
           <div className="row1">
             <div className="row1col1"> 
             <BioContainer
-              bioJob="Web Designer"
-              bioName="Sofia Oliveira."
-              bioDescription="I'm focused on fulfilling objectives, new challenges and being
-  creative."
+              bioJob="Fullstack Developer"
+              bioName="Sofia Wood."
+              bioDescription="Driven by creativity, curiosity and focused on fulfilling objectives, I am ready to bring a versatile approach to every project."
             />
             </div>
             <div className="col2">
@@ -32,12 +31,14 @@ function Homepage() {
             <SimpleContainer 
             img={aboutMeImage}
             subtitle="More about me" 
-            title="Credentials" />
+            title="Credentials"
+            href="https://www.linkedin.com/in/sofia-oliveira-/" target="_blank" rel="" />
           <div className="row1col3"> 
             <SimpleContainer 
             img={projectsImage}
             subtitle="Github" 
-            title="Fullstack  Web Developtment" />
+            title="Fullstack Web Developtment"
+            href="projects" />
             </div>
             </div>
           </div>
@@ -48,17 +49,18 @@ function Homepage() {
           <SimpleContainer 
             img={blogImage}
             subtitle="Portfolio" 
-            title="Design" />
+            title="Design"
+            href="https://www.behance.net/sofiaoliveira-" target="_blank" rel="" />
           </div>
           <div className="row2col2">
             <ServicesComponent 
             subtitle="Specialization"
-            title="Services"/>
+            title="Skills & Tools"/>
           </div>
           <div className="row2col3">
             <SocialContainer 
-            subtitle="Stay with me"
-            title="Profiles"/>
+            title= "Stay with me"
+            subtitle="Profiles"/>
           </div>
         
         </div>

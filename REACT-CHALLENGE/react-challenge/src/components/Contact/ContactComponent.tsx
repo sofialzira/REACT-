@@ -1,6 +1,8 @@
 import style from './ContactComponent.module.css';
 import { CiCircleChevRight } from "react-icons/ci";
-import { HiOutlineSparkles } from "react-icons/hi2";
+
+import { AiOutlineWechatWork } from "react-icons/ai";
+
 
 
 
@@ -13,8 +15,7 @@ function ContactComponent() {
         <div className={style.contactContainerGeneral}>
         <div className={style.iconContainer}>
 
-        <HiOutlineSparkles size={40} color={'#BCBCBC80'}/>
-
+        <AiOutlineWechatWork size={40} color={'#BCBCBC80'} />
 
 
         

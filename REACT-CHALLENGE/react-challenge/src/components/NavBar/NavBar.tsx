@@ -18,13 +18,15 @@ function NavBar() {
                         <li><a className={style.menuLink} href="home">Home</a></li>
                         <li><a className={style.menuLink} href="about">About</a></li>
                         <li><a className={style.menuLink} href="projects">Projects</a></li>
-                        {/* <li><a className={style.menuLink} href="#">Contact</a></li> */}
+                
                     </ul>
                 </div>
                 
             </nav>
             <div className={style.navButton}>
-                <button className={style.button}>Let's talk</button>
+                <a href="https://www.linkedin.com/in/sofia-oliveira-/" target="_blank" rel="">
+                    <button className={style.button}>Let's talk</button>
+                    </a>
             </div>
         </div>
         )

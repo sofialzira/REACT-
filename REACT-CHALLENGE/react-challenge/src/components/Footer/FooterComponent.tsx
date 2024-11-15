@@ -12,10 +12,9 @@ function Footer() {
          <nav className={style.linksWrapper}>
                 <div className={style.mainMenu}>
                     <ul>
-                        <li><a href="#"> <span className={style.menuFooter}> Home</span></a></li>
-                        <li><a href="#"><span className={style.menuFooter}> About</span></a></li>
-                        <li><a href="#"><span className={style.menuFooter}> Projects</span></a></li>
-                        {/* <li><a href="#"><span className={style.menuFooter}> Contact</span></a></li> */}
+                        <li><a href="home"> <span className={style.menuFooter}> Home</span></a></li>
+                        <li><a href="about"><span className={style.menuFooter}> About</span></a></li>
+                        <li><a href="projects"><span className={style.menuFooter}> Projects</span></a></li>
                     </ul>
                 </div>
                 

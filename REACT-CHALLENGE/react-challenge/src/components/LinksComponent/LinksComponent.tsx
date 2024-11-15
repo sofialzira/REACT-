@@ -8,9 +8,16 @@ function Links() {
         <div className={style.linksGeneralContainer}>
              <div className={style.linksWrapper}>
                     <ul>
-                        <li className={style.vaiCaralho}>  <a  href="#"><span className={style.linkText}>Linkedin</span></a></li>
-                        <BsSuitDiamondFill /><li><a href="#"><span className={style.linkText}>Behance</span></a></li>
-                        <BsSuitDiamondFill /><li><a href="#"><span className={style.linkText}>Instagram</span></a></li>
+                        <li className={style.vaiCaralho}> <span className={style.linkText}>React</span></li>
+                        <BsSuitDiamondFill size={12} color={'#4d6f7b'}/><li> <span className={style.linkText}>Javascript</span></li>
+                        <BsSuitDiamondFill size={12} color={'#4d6f7b'}/><li><span className={style.linkText}>Backend</span></li>
+                        <BsSuitDiamondFill size={12} color={'#4d6f7b'}/><li><span className={style.linkText}>NodeJS</span></li>
+                    </ul>
+                    <ul>
+                    <li className={style.vaiCaralho}> <span className={style.linkText}>HTML/CSS</span></li>
+                        <BsSuitDiamondFill size={12} color={'#4d6f7b'}/><li> <span className={style.linkText}>Git</span></li>
+                        <BsSuitDiamondFill size={12} color={'#4d6f7b'}/><li><span className={style.linkText}>Figma</span></li>
+                        <BsSuitDiamondFill size={12} color={'#4d6f7b'}/><li><span className={style.linkText}>Adobe Suite</span></li>
                     </ul>
                 </div>
         </div>

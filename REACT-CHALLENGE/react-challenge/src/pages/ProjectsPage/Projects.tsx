@@ -51,7 +51,7 @@ function Projects() {
             </div>
             
             <div className="row1col2projects">
-              <BioTitle titleText="ALL PROJECTS" />
+              <BioTitle titleText="LAST PROJECTS" />
             </div>
           </div>
           <div className="row2projects">

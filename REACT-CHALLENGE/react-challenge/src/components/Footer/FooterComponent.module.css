@@ -1,5 +1,5 @@
 .logoContainer {
-    height: 5rem;
+    height: 8rem;
     margin-top: 8rem;
 } 
 
@@ -26,13 +26,17 @@
     }
 }
 
+.menuFooter:hover {
+    color: var(--t-hoover-menu);
+  }
+
 .menuFooter {
     font-size: 1rem;
 }
 
 .copywright {
     font-size: 1rem;
-    color: var(--t-grey-menu);
+    color: rgba(255, 255, 255, 0.665);
     margin-top: 3rem;
     margin-bottom: 2rem;
 }

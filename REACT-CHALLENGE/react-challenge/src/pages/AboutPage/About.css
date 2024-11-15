@@ -52,12 +52,18 @@
 
 .row3col1about {
     width: 25%;
+    display: flex;
+    align-items: center;
 }
 
 .row3col2about {
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .row3col3about {
     width: 25%;
+    display: flex;
+    justify-content: flex-end;
 }

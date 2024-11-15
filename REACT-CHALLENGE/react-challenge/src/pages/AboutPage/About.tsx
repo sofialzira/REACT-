@@ -2,7 +2,6 @@ import './About.css';
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/FooterComponent";
 import BioImage from "../../components/BioImage/BioImage";
-import BioTitle from '../../components/BioTitle/BioTitleComponent';
 import BioDescription from '../../components/BioDescription/BioDescriptionComponent';
 import Credentials from '../../components/Credentials/CredentialsComponent';
 import SocialComponent from '../../components/SocialComponent/SocialComponent';
@@ -14,31 +13,41 @@ import aboutMeImage from '../../assets/about-me.jpg';
 
 function About() {
     let educationItems = [
-        {"year":"2011 - 2014",
-            "job":"Degree in Design Multimedia",
-            "place":"Universidade da Beira Interior",
+
+        {"year":"2023 - 2024",
+            "job":"Fullstack Development",
+            "place":"EDIT, Porto"
+        },
+        {"year":"2021 - 2022",
+            "job":"UX/UI Design",
+            "place":"FLAG, Porto"
         },
         {"year":"2014 - 2016",
             "job":"Master Degree in Communication Strategy and Publicity",
             "place":"Universidade da Beira Interior",
         },
-        {"year":"2021 - 2022",
-            "job":"UX/UI Design",
-            "place":"FLAG, Porto"
+        {"year":"2011 - 2014",
+            "job":"Degree in Design Multimedia",
+            "place":"Universidade da Beira Interior",
         }
+        
     ]
 
     let experienceItems = [
-        {"year":"2022 - 2013",
-            "job":"Graphic Designer Junior",
+        {"year":"2022 - 2023",
+            "job":"Graphic | UX/UI Designer Junior",
             "place":"Wace Studio",
+        },
+        {"year":"2020 - 2022",
+            "job":"Photographer & Videographer",
+            "place":"Lignum Vulpes",
         },
         {"year":"2018 - 2020",
             "job":"Photographer & Videographer",
             "place":"Freelancer",
         },
         {"year":"2017 - 2019",
-            "job":"Photography Assistant",
+            "job":"Photographer Assistant",
             "place":"Pedro Castro Fotografo"
         }
     ]
@@ -51,8 +60,6 @@ function About() {
             <BioImage />
             </div>
             <div className="col2about">
-            <BioTitle
-            titleText="SELF-SUMMARY" />
             <div className="sub-row1about">
             <BioDescription />
             </div>
@@ -74,7 +81,9 @@ function About() {
         </div>
         <div className='row3about'>
         <div className="row3col1about">
-            <SocialComponent />
+            <SocialComponent 
+            title= "Stay with me"
+            subtitle="Profiles"/>
           </div>
           <div className="row3col2about">
             <ContactComponent />

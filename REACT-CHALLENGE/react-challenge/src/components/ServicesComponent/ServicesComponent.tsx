@@ -34,10 +34,10 @@ function ServicesComponent(props: any) {
                 <span className={style.subtitle}>{subtitle}</span>
                 <span className={style.title}>{title}</span>
             </div>
-            <div className={style.infoButtonContainer}>
+            {/* <div className={style.infoButtonContainer}>
             <a className={style.infoButton} href="">
             <CiCircleChevRight /></a>
-            </div>
+            </div> */}
         </div>
     </div>
     )

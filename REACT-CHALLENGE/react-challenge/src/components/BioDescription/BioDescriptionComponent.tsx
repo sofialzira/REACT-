@@ -1,23 +1,27 @@
 import style from './BioDescriptionComponent.module.css';
-import { HiOutlineSparkles } from "react-icons/hi2";
 
 function BioDescription() {
 
     return(
 
         <div className={style.bioContainerGeneral}>
-        <div className={style.bioIconContainer}>
 
-        <HiOutlineSparkles size={30} color={'#BCBCBC80'}/>
 
-        </div>
         <div className={style.bioInfoContainer}>
-            <div className={style.name}> Sofia Oliveira</div>
-            <div className={style.bio}> I am an enthusiast when it comes to design and arts. While always looking for new inspiration and things to learn about, art became the filter through which I decided to see the world and express myself.
-I'm focused on fulfilling objectives, new challenges and being creative.
-I am great at adapting and taking criticism, as I see it as an opportunity to grow and learn. </div>
+            <div className={style.bio}> Hello!<br></br>
+            <br />
+            My name is Sofia, currently based in Porto, Portugal and I am a passionate designer with a growing focus on web development. <br />
+            <br />
+            Since childhood, I've been immersed in the world of arts, music, and literature, all of which have fueled my lifelong love for creativity and self-expression. These early influences naturally led me to pursue a degree in Multimedia Design, where I honed my skills in visual storytelling and digital artistry. Further studies, including a Master's in Strategic Communication and Marketing and specialized training in UX/UI design, have allowed me to bridge my creative foundations with strategic thinking, user-centered design, and the technical proficiency needed to bring ideas to life. <br />
+            <br />
+            In my latest position as a UX/UI designer, 
+            I designed e-commerce websites and worked closely with the development team, besides single-handedly creating social media content, infographics and doing editorial design. This has expanded my understanding of the digital landscape and given me the ability to approach projects from multiple perspectives, combining creativity with analytical insight and feedback from my peers to achieve the best results. <br />
+            <br />
+            Driven by a desire to complement my skillset even further, I recently completed a Full Stack Development specialization, deepening my understanding of UX/UI design and merging it with web development.
+             
+             </div>
             
-    
+       
             </div>
         </div>
 

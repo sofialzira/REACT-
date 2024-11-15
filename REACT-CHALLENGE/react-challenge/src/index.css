@@ -8,11 +8,13 @@
   --bk-primary: #1a1a1d;
   --bk-container: #ffffff05;
   --bk-menu-button: #2a3b42;
+  --bk-hover-button: #334952;
   --t-white: #FFFFFF;
-  --t-hoover-menu: #2f4249;
+  --t-hoover-menu: #4d6f7b;
   --t-white-menu: #d1d1d1;
-  --t-blue: #5d78f0e1;
-  --t-gray-body: #BCBCBC80;
+  --t-blue: #4d6f7b;
+  --t-gray-body: #c3c3c397;
+  --bk-round-button: #858585;
 
 }
 

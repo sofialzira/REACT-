@@ -1,10 +1,10 @@
 import style from './SocialComponent.module.css';
-import { CiCircleChevRight } from "react-icons/ci";
+
 import Social from './Social/social'
 
 
 function SocialContainer(props:any) {
-    const { subtitle, title } = props;
+    const { title, subtitle } = props;
 
     return (
         <div className={style.socialContainerGeneral}>
@@ -14,11 +14,7 @@ function SocialContainer(props:any) {
                     <span className={style.subtitle}>{subtitle}</span>
                     <span className={style.title}>{title}</span>
                 </div>
-                <div className={style.infoButtonContainer}>
-                <a className={style.infoButton} href="">
-                <CiCircleChevRight /></a>
                 </div>
-            </div>
         </div>
 
     )

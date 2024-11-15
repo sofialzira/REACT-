@@ -1,5 +1,5 @@
 import style from './BioImage.module.css';
-import bioImage from '../../assets/bio-image.png';
+import bioImage from '../../assets/bio-image-2.png';
 
 
 function BioImage() {

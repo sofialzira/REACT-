@@ -3,7 +3,7 @@ import { CiCircleChevRight } from "react-icons/ci";
 
 
 function SimpleContainer(props:any) {
-    const { img, subtitle, title } = props;
+    const { img, subtitle, title, href } = props;
 
     return (
         <div className={style.aboutSimpleContainerGeneral}>
@@ -16,10 +16,10 @@ function SimpleContainer(props:any) {
                     <span className={style.title}>{title}</span>
                 </div>
                 <div className={style.infoButtonContainer}>
-                <a className={style.infoButton} href="">
+                <a className={style.infoButton} href={href} target="_blank">
                 <CiCircleChevRight /></a>
                 </div>
-            </div>
+            </div> 
         </div>
 
     )
