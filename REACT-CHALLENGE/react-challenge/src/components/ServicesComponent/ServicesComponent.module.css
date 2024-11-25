@@ -9,7 +9,7 @@
 }
 
 .iconsContainer {
-    height: 130px;
+    height: 146px;
     display: flex;
     align-items: center;
     align-content: center;
@@ -21,7 +21,7 @@
     justify-content: space-between;
     flex-direction: row;
     align-items: flex-start;
-    margin-top: 2rem;
+    
 }
 
 .infoTextContainer {

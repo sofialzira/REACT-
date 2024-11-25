@@ -2,6 +2,8 @@ import style from './SimpleContainer.module.css';
 import { CiCircleChevRight } from "react-icons/ci";
 
 
+
+
 function SimpleContainer(props:any) {
     const { img, subtitle, title, href } = props;
 

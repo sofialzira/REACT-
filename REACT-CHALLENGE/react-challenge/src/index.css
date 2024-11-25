@@ -10,7 +10,7 @@
   --bk-menu-button: #2a3b42;
   --bk-hover-button: #334952;
   --t-white: #FFFFFF;
-  --t-hoover-menu: #4d6f7b;
+  --t-hoover-menu: #49777f;
   --t-white-menu: #d1d1d1;
   --t-blue: #4d6f7b;
   --t-gray-body: #c3c3c397;
@@ -42,3 +42,13 @@ html {
 }
 
 
+@media (max-width: 768px) {
+  
+  #root {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+}

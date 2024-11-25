@@ -64,3 +64,19 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+
+
+@media (max-width: 768px) {
+  
+
+  .main-header { 
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 2rem;
+}
+  .button { 
+  display: none;}
+}

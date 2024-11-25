@@ -10,8 +10,9 @@
 
 .row1col2projects {
     width: 75%;
+    font-size: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .row2projects, .row3projects {
@@ -20,3 +21,4 @@
     gap: 40px;
     margin-bottom: 40px;
 }
+

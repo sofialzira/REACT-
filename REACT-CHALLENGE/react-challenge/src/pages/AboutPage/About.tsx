@@ -7,7 +7,8 @@ import Credentials from '../../components/Credentials/CredentialsComponent';
 import SocialComponent from '../../components/SocialComponent/SocialComponent';
 import ContactComponent from '../../components/Contact/ContactComponent';
 import SimpleContainer from '../../components/SimpleContainer/SimpleContainer';
-import aboutMeImage from '../../assets/about-me.jpg';
+import projectsImage from '../../assets/projects.jpg';
+
 
 
 
@@ -90,9 +91,14 @@ function About() {
           </div>
           <div className='row3col3about'>
           <SimpleContainer 
+            img={projectsImage}
+            subtitle="Projects" 
+            title="Fullstack Web Developtment"
+            href="projects" />
+          {/* <SimpleContainer 
             img={aboutMeImage}
             subtitle="More about me" 
-            title="Credentials" />
+            title="Credentials" /> */}
           </div>
 
         </div>

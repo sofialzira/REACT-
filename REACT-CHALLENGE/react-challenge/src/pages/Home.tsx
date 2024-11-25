@@ -1,14 +1,14 @@
 import BioContainer from "../components/BioContainerComponent/BioContainer";
 import NavBar from "../components/NavBar/NavBar";
 import SimpleContainer from "../components/SimpleContainer/SimpleContainer";
-import aboutMeImage from '../assets/about-me.jpg';
+// import aboutMeImage from '../assets/about-me.jpg';
 import projectsImage from '../assets/projects.jpg';
 import Links from "../components/LinksComponent/LinksComponent";
 import blogImage from '../assets/blog-image.jpg';
 import Footer from "../components/Footer/FooterComponent";
 import ServicesComponent from "../components/ServicesComponent/ServicesComponent";
 import SocialContainer from "../components/SocialComponent/SocialComponent";
-import DataComponent from "../components/DataComponent/DataComponent";
+// import DataComponent from "../components/DataComponent/DataComponent";
 import ContactComponent from "../components/Contact/ContactComponent";
 
 function Homepage() {
@@ -29,45 +29,38 @@ function Homepage() {
             <div className="sub-row1">
             <div className="row1col2"> 
             <SimpleContainer 
-            img={aboutMeImage}
-            subtitle="More about me" 
-            title="Credentials"
-            href="https://www.linkedin.com/in/sofia-oliveira-/" target="_blank" rel="" />
-          <div className="row1col3"> 
+            img={blogImage}
+            subtitle="Portfolio" 
+            title="Design"
+            href="https://www.behance.net/sofiaoliveira-" target="_blank" rel="" />
+            </div>
+            <div className="row1col3"> 
             <SimpleContainer 
             img={projectsImage}
-            subtitle="Github" 
-            title="Fullstack Web Developtment"
+            subtitle="Projects" 
+            title="FS Web Developtment"
             href="projects" />
-            </div>
             </div>
           </div>
           </div>
           </div>
         <div className="row2">
           <div className="row2col1">
-          <SimpleContainer 
-            img={blogImage}
-            subtitle="Portfolio" 
-            title="Design"
-            href="https://www.behance.net/sofiaoliveira-" target="_blank" rel="" />
-          </div>
-          <div className="row2col2">
-            <ServicesComponent 
-            subtitle="Specialization"
-            title="Skills & Tools"/>
-          </div>
-          <div className="row2col3">
-            <SocialContainer 
+          
+             <SocialContainer 
             title= "Stay with me"
             subtitle="Profiles"/>
           </div>
-        
+          <div className="row2col2">
+            <ServicesComponent 
+            subtitle="Interests"
+            title="Skills & Hobbies"/>
+          </div>
         </div>
         <div className="row3">
-          <div className="row3col1">
+          {/* <div className="row3col1">
             <DataComponent />
-          </div>
+          </div> */}
           <div className="row3col2">
             <ContactComponent />
           </div>
