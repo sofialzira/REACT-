@@ -38,6 +38,13 @@ function Projects() {
       return (
         <>
           <div className="row1projects">
+
+          <div className="row1col2projects">
+              <BioTitle 
+              titleText="FULL STACK PROJECTS" 
+              subtitleText="projects developed within the scope of an intensive fullstack training course"
+              />
+            </div>
             
             <div className="row1col1projects">
             <Repo
@@ -50,12 +57,7 @@ function Projects() {
             />
             </div>
             
-            <div className="row1col2projects">
-              <BioTitle 
-              titleText="FULL STACK PROJECTS" 
-              subtitleText="projects developed within the scope of an intensive fullstack training course"
-              />
-            </div>
+           
           </div>
           <div className="row2projects">
             <Repo

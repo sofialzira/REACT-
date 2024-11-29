@@ -12,11 +12,13 @@
 .row1col2 {
   width: 50%;
   display: flex;
+  justify-content: center;
 }
 
 .row1col3 {
   width: 50%;
   display: flex;
+  justify-content: center;
 }
 
 .col2 {
@@ -107,7 +109,7 @@
   }
 
   .col2 {
-    width: 96%;
+    width: 100%;
   }
 
   .row2col2 {

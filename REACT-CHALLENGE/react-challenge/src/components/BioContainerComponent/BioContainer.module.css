@@ -94,3 +94,20 @@ width: 85%;
 height: auto;
 border-radius: 2rem 0.5rem;
 }
+
+
+
+@media (max-width: 768px) {
+
+.bioContainerGeneral {
+  width: 100%;
+}
+
+.infoTextContainer {
+  margin-top: 3rem;
+}
+
+.imageContainer {
+  height: 90%;
+}
+}

@@ -20,7 +20,7 @@
 
 
 
-.bio{
+.bio {
     color: var(--t-white);
     font-size: 12px;
     line-height: 18px;
@@ -28,3 +28,11 @@
     text-align: left;
     
 }
+
+@media (max-width: 768px) {
+
+  .bioContainerGeneral {
+    height: 76rem;
+  }
+  
+  }

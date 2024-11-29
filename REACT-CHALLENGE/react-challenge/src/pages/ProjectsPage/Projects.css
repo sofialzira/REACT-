@@ -5,14 +5,17 @@
 }
 
 .row1col1projects {
-        width: 37%;
-      }
+    width: 37%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 
 .row1col2projects {
     width: 75%;
     font-size: 100px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .row2projects, .row3projects {
@@ -22,3 +25,38 @@
     margin-bottom: 40px;
 }
 
+@media (max-width: 768px) {
+
+    .row1projects {
+        flex-direction: column;
+
+    }
+
+    .row1col1projects {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+
+   .row1col2projects {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+   
+
+   .row2projects {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    
+   }
+
+   .row3projects {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    
+   }
+  }

@@ -75,7 +75,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
   .button { 
   display: none;}

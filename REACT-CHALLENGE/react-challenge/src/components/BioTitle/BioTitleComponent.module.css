@@ -1,6 +1,6 @@
 .titleContainer {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     gap: 20px;
     padding-bottom: 2rem;
     flex-direction: column;
@@ -18,4 +18,24 @@
 .subtitle {
     color: var(--t-gray-body);
     font-size: 14px;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .titleContainer {
+    align-items: center;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+    .title {
+        font-size: 26px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
 }

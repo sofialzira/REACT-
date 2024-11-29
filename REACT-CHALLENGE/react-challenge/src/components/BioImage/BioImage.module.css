@@ -26,3 +26,12 @@
     height: auto;
     border-radius: 2rem 0.5rem;
 }
+
+
+@media (max-width: 768px) {
+ 
+  .bioImageGeneral {
+    width: 80%;
+    margin-bottom: 40px;
+ }
+}

@@ -66,3 +66,13 @@
     color: white;
   }
   
+
+  @media (max-width: 768px) {
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+  }

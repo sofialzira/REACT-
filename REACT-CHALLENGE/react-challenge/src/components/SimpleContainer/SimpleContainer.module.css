@@ -93,4 +93,10 @@
     .title {
         font-size: 1.2rem;
     }
+
+    .infoTextContainer {
+        text-align: left;
+    }
+
+    
   }

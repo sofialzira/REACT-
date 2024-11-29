@@ -20,7 +20,7 @@ function Footer() {
                 
             </nav>
 
-            <div className={style.copywright}>© All rights reserved by </div>
+            <div className={style.copywright}>© All rights reserved </div>
 
         </div>
     )
